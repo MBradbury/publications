@@ -9,6 +9,7 @@ import os.path
 from pybtex.plugin import find_plugin
 from pybtex.database import parse_file
 from pybtex.database import BibliographyData
+from markdownify import markdownify as md
 
 style = find_plugin('pybtex.style.formatting', 'plain')()
 HTML = find_plugin('pybtex.backends', 'html')()
@@ -21,9 +22,8 @@ data = sorted(db.entries.items(), key=lambda e: e[1].fields["year"], reverse=Tru
 def run(data, style):
     bibtex_dir = "bibtex"
     highlight_author = "Matthew Bradbury"
-    root_dir = "https://github.com/MBradbury/publications/tree/master/papers"
+    root_dir = "https://raw.githubusercontent.com/MBradbury/publications/master"
 
-    print(type(data))
     html = '<div class="publication-list">\n'
     cur_year = None
 
@@ -38,7 +38,7 @@ def run(data, style):
         pub_html = list(style.format_entries((entry,)))[0].text.render_as("html")
         if highlight_author:  # highlight an author (usually oneself)
             pub_html = pub_html.replace(highlight_author, "<strong>{}</strong>".format(highlight_author), 1)
-        html += '<li class = "publication">' + pub_html
+        html += '<li class="publication">' + pub_html
 
         extra_links = []
         if bibtex_dir:  # write bib files to bibtex_dir for downloading
@@ -70,5 +70,11 @@ def run(data, style):
 
     return html
 
+html_output = run(data, style)
+md_output = md(html_output)
+
 with open("out.html", "w") as out:
-    print(run(data, style), file=out)
+    print(html_output, file=out)
+
+with open("README.md", "w") as readme:
+    print(md_output, file=readme)
