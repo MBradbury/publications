@@ -32,7 +32,7 @@ html_output = ""
 
 for section_name, section_types in sections.items():
 
-    html_output += f"<h2>{section_name}</h2>\n"
+    html_output += f'<h2 id="{section_name.replace(" ", "")}">{section_name}</h2>\n'
 
     html_output += '<div class="publication-list">\n'
     cur_year = None
