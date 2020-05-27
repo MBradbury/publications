@@ -24,7 +24,7 @@ data = list(sorted(db.entries.items(), key=lambda e: e[1].fields["year"], revers
 
 bibtex_dir = "bibtex"
 highlight_author = "Matthew Bradbury"
-root_dir = "https://raw.githubusercontent.com/MBradbury/publications/master"
+root_dir = "https://github.com/MBradbury/publications/raw/master"
 
 
 html_output = ""
