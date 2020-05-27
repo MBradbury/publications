@@ -1,5 +1,4 @@
-Publications
-------------
+## Publications
 
   #### 2020
 
@@ -65,13 +64,11 @@ Publications
 
   * Arshad Jhumka, **Matthew Bradbury**, and Matthew Leeke. Towards Understanding Source Location Privacy in Wireless Sensor Networks through Fake Sources. In *11th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)*, 760–768. June 2012. [doi:10.1109/TrustCom.2012.281](https://doi.org/10.1109/TrustCom.2012.281).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Jhumka_2012_TowardsUnderstandingSource.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/TrustCom2012.pdf)] [[presentation](https://github.com/MBradbury/publications/raw/master/presentations/TrustCom2012.pdf)]
-   PhD Thesis
-----------
+   ## PhD Thesis
 
    * **Matthew Bradbury**. *Near Optimal Routing Protocols for Source Location Privacy in Wireless Sensor Networks: Modelling, Design and Evaluation*. PhD thesis, University of Warwick, Coventry, UK, 2018. URL: <http://wrap.warwick.ac.uk/115772>.  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2018_NearOptimalRouting.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/Thesis.pdf)]
-   Technical Reports
------------------
+   ## Technical Reports
 
    * Carsten Maple, **Matthew Bradbury**, Miles Elsden, Haitham Cruickshank, Hu Yuan, Chen Gu, and Phillip Asuquo. IoT Transport and Mobility Demonstrator: Cyber Security Testing on National Infrastructure. Technical Report, University of Warwick, Coventry, UK, May 2019.  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Maple_2019_IoTTransportMobility.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/IoT_TRaM_Report.pdf)]

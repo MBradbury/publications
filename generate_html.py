@@ -87,7 +87,7 @@ for section_name, section_types in sections.items():
 
     html_output += "</div>\n"
 
-md_output = md(html_output)
+md_output = md(html_output, heading_style="ATX")
 
 with open("out.html", "w") as out:
     print(html_output, file=out)
