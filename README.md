@@ -70,6 +70,10 @@
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2018_NearOptimalRouting.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/Thesis.pdf)]
    ## Technical Reports
 
-   * Carsten Maple, **Matthew Bradbury**, Miles Elsden, Haitham Cruickshank, Hu Yuan, Chen Gu, and Phillip Asuquo. IoT Transport and Mobility Demonstrator: Cyber Security Testing on National Infrastructure. Technical Report, University of Warwick, Coventry, UK, May 2019.  
+   * Elijah Adegoke, **Matthew Bradbury**, Erik Kampert, Matthew Higgins, Tim Watson, Paul Jennings, Colin Ford, Guy Buesnel, and Steve Hickling. PNT Cyber Resilience: a Lab2Live Observer Based Approach, Report 1: GNSS Resilience and Identified Vulnerabilities. Technical Report 1, University of Warwick, Coventry, UK, April 2020. Version 1.0. URL: <http://wrap.warwick.ac.uk/139519/>.  
+[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Adegoke_2020_PntCyberResilience.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/PNTReport1.pdf)]
+ * **Matthew Bradbury**, Elijah Adegoke, Erik Kampert, Matthew Higgins, Tim Watson, Paul Jennings, Colin Ford, Guy Buesnel, and Steve Hickling. PNT Cyber Resilience: a Lab2Live Observer Based Approach, Report 2: Specifications for Cyber Testing Facilities. Technical Report 2, University of Warwick, Coventry, UK, April 2020. Version 1.2. URL: <http://wrap.warwick.ac.uk/139522/>.  
+[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2020_PntCyberResilience.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/PNTReport2.pdf)]
+ * Carsten Maple, **Matthew Bradbury**, Miles Elsden, Haitham Cruickshank, Hu Yuan, Chen Gu, and Phillip Asuquo. IoT Transport and Mobility Demonstrator: Cyber Security Testing on National Infrastructure. Technical Report, University of Warwick, Coventry, UK, May 2019.  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Maple_2019_IoTTransportMobility.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/IoT_TRaM_Report.pdf)]
    
