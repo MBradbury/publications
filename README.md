@@ -2,9 +2,9 @@
 
   #### 2020
 
-  * Carsten Maple, **Matthew Bradbury**, Hu Yuan, Marie Farrell, Clare Dixon, Michael Fisher, and Uger Ilker Atmaca. Security-Minded Verification of Space Systems. In *IEEE Aerospace Conference*. Big Sky, Montana, USA, 7–14 March 2020.  
+  * Carsten Maple, **Matthew Bradbury**, Hu Yuan, Marie Farrell, Clare Dixon, Michael Fisher, and Uger Ilker Atmaca. Security-Minded Verification of Space Systems. In *IEEE Aerospace Conference*. Big Sky, Montana, USA, 7–14 March 2020. IEEE. [doi:10.1109/AERO47225.2020.9172563](https://doi.org/10.1109/AERO47225.2020.9172563).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Maple_2020_SecurityMindedVerification.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/AeroConf2020-SMV.pdf)]
- * **Matthew Bradbury**, Carsten Maple, Uger Ilker Atmaca, and Sara Cannizzaro. Identifying Attack Surfaces in the Evolving Space Industry Using Reference Architectures. In *IEEE Aerospace Conference*. Big Sky, Montana, USA, 7–14 March 2020.  
+ * **Matthew Bradbury**, Carsten Maple, Uger Ilker Atmaca, and Sara Cannizzaro. Identifying Attack Surfaces in the Evolving Space Industry Using Reference Architectures. In *IEEE Aerospace Conference*. Big Sky, Montana, USA, 7–14 March 2020. IEEE. [doi:10.1109/AERO47225.2020.9172785](https://doi.org/10.1109/AERO47225.2020.9172785).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2020_IdentifyingAttackSurfaces.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/AeroConf2020-SRA.pdf)]
  #### 2019
 
@@ -12,7 +12,7 @@
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2019_ImpactDecreasingTransmit.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/CPS-IoTBench2019.pdf)]
  * Jasmine Grosso, Arshad Jhumka, and **Matthew Bradbury**. Reliable Many-to-Many Routing in Wireless Sensor Networks Using Ant Colony Optimisation. In *15th European Dependable Computing Conference (EDCC)*, 111–118. September 2019. [doi:10.1109/EDCC.2019.00030](https://doi.org/10.1109/EDCC.2019.00030).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Grosso_2019_ReliableManyMany.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/EDCC2019.pdf)]
- * Marie Farrell, **Matthew Bradbury**, Michael Fisher, Louise A. Dennis, Clare Dixon, Hu Yuan, and Carsten Maple. Using Threat Analysis Techniques to Guide Formal Verification: A Case Study of Cooperative Awareness Messages. In Peter Csaba Ölveczky and Gwen Salaün, editors, *Software Engineering and Formal Methods*, 471–490. Cham, 2019. Springer International Publishing.  
+ * Marie Farrell, **Matthew Bradbury**, Michael Fisher, Louise A. Dennis, Clare Dixon, Hu Yuan, and Carsten Maple. Using Threat Analysis Techniques to Guide Formal Verification: A Case Study of Cooperative Awareness Messages. In Peter Csaba Ölveczky and Gwen Salaün, editors, *Software Engineering and Formal Methods*, 471–490. Cham, 2019. Springer International Publishing. [doi:10.1007/978-3-030-30446-1\_25](https://doi.org/10.1007/978-3-030-30446-1_25).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Farrell_2019_UsingThreatAnalysis.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/SEFM2019.pdf)]
  * Hu Yuan, **Matthew Bradbury**, Carsten Maple, and Chen Gu. Throughput Aware Authentication Prioritisation for Vehicular Communication Networks. In *90th IEEE Vehicular Technology Conference (VTC2019-Fall)*, 1–5. Sep. 2019. [doi:10.1109/VTCFall.2019.8891375](https://doi.org/10.1109/VTCFall.2019.8891375).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Yuan_2019_ThroughputAwareAuthentication.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/VTC-Fall2019.pdf)]
