@@ -8,7 +8,7 @@
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2020_IdentifyingAttackSurfaces.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/AeroConf2020-SRA.pdf)]
  * **Matthew Bradbury**, Arshad Jhumka, and Carsten Maple. A Spatial Source Location Privacy-Aware Duty Cycle for Internet of Things Sensor Networks. *ACM Transactions on Internet of Things*, 2(1):1–31, 2020. In Press.  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2020_SpatialSourceLocation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/TIOT2020.pdf)]
- * **Matthew Bradbury**, Phillip Taylor, Ugur Ilker Atmaca, Carsten Maple, and Nathan Griffiths. Privacy Challenges with Protecting Live Vehicular Location Context. *IEEE Access*, 8:1–20, 2020. [doi:10.1109/ACCESS.2020.3038533](https://doi.org/10.1109/ACCESS.2020.3038533).  
+ * **Matthew Bradbury**, Phillip Taylor, Ugur Ilker Atmaca, Carsten Maple, and Nathan Griffiths. Privacy Challenges with Protecting Live Vehicular Location Context. *IEEE Access*, 8:207465–207484, 2020. [doi:10.1109/ACCESS.2020.3038533](https://doi.org/10.1109/ACCESS.2020.3038533).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2020_PrivacyChallengesProtecting.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/Access2020.pdf)]
  #### 2019
 
