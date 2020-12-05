@@ -2,8 +2,10 @@
 
   #### 2021
 
-  * **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes. In *Proceedings of the Symposium on Applied Computing*, SAC'21. ACM, 22–26 March 2021. To Appear.  
+  * **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes. In *Proceedings of the Symposium on Applied Computing*, SAC'21, 1–10. ACM, 22–26 March 2021. To Appear.  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustAssessment32.bib)]
+ * **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In *IEEE INFOCOM*, 1–10. IEEE, 10–13 May 2021. To Appear.  
+[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustTrackersComputation.bib)]
  #### 2020
 
   * Carsten Maple, **Matthew Bradbury**, Hu Yuan, Marie Farrell, Clare Dixon, Michael Fisher, and Uger Ilker Atmaca. Security-Minded Verification of Space Systems. In *IEEE Aerospace Conference*. Big Sky, Montana, USA, 7–14 March 2020. IEEE. [doi:10.1109/AERO47225.2020.9172563](https://doi.org/10.1109/AERO47225.2020.9172563).  
