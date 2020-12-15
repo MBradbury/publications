@@ -27,9 +27,7 @@ bibtex_dir = "bibtex"
 highlight_author = "Matthew Bradbury"
 root_dir = "https://github.com/MBradbury/publications/raw/master"
 
-
 html_output = ""
-
 
 for section_name, section_types in sections.items():
 
@@ -47,18 +45,19 @@ for section_name, section_types in sections.items():
             # print a year title when year changes
             if entry.fields["year"] != cur_year:
                 if cur_year is not None:  # not first year group
-                    html_output += "</ul>"
+                    html_output += "\t</ul>\n"
                 cur_year = entry.fields["year"]
-                html_output += f"<h4>{cur_year}</h4>\n<ul>\n"
+                html_output += f"\t<h4 id='pub_{cur_year}'>{cur_year}</h4>\n\t<ul>\n"
         else:
             if cur_year is None:
-                html_output += "<ul>\n"
+                html_output += "\t<ul>\n"
                 cur_year = True
 
         pub_html = list(style.format_entries([entry]))[0].text.render_as("html")
+        pub_html = pub_html.replace("\n", " ")
         if highlight_author:  # highlight an author (usually oneself)
             pub_html = pub_html.replace(highlight_author, "<strong>{}</strong>".format(highlight_author), 1)
-        html_output += '<li class="publication">' + pub_html
+        html_output += '\t\t<li class="publication">\n\t\t\t' + pub_html
 
         extra_links = []
         if bibtex_dir:  # write bib files to bibtex_dir for downloading
@@ -81,10 +80,10 @@ for section_name, section_types in sections.items():
         if extra_links:
             html_output += "<br/>" + " ".join(extra_links)
 
-        html_output += "</li>\n"
+        html_output += "\n\t\t</li>\n"
 
     if len(data) != 0:  # publication list is nonempty
-        html_output += "</ul>\n"
+        html_output += "\t</ul>\n"
 
     html_output += "</div>\n"
 
