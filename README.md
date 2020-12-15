@@ -2,7 +2,7 @@
 
   #### 2021
 
-  * **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes. In *Proceedings of the Symposium on Applied Computing*, SAC'21, 1–10. ACM, 22–26 March 2021. To Appear.  
+  * **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes. In *The 36th ACM/SIGAPP Symposium on Applied Computing*, SAC'21, 1–10. Virtual Event, Republic of Korea, 22–26 March 2021. ACM. To Appear. [doi:10.1145/3412841.3441898](https://doi.org/10.1145/3412841.3441898).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustAssessment32.bib)]
  * **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In *IEEE INFOCOM*, 1–10. IEEE, 10–13 May 2021. To Appear.  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustTrackersComputation.bib)]
