@@ -2,6 +2,7 @@
 # Based on: https://github.com/StreakyCobra/plugins/blob/master/v7/publication_list/publication_list.py
 
 import os.path
+import re
 
 from markdownify import markdownify as md
 
@@ -88,6 +89,9 @@ for section_name, section_types in sections.items():
     html_output += "</div>\n"
 
 md_output = md(html_output, heading_style="ATX")
+
+# Not all headings will be formatted correctly, some may have leading spaces
+md_output = re.sub(r" +#", "#", md_output)
 
 with open("out.html", "w") as out:
     print(html_output, file=out)
