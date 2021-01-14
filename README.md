@@ -4,9 +4,9 @@
 
  
  *  **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes. In *The 36th ACM/SIGAPP Symposium on Applied Computing*, SAC'21, 1–10. Virtual Event, Republic of Korea, 22–26 March 2021. ACM. To Appear. [doi:10.1145/3412841.3441898](https://doi.org/10.1145/3412841.3441898).  
-[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustAssessment32.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/SAC-DADS2021.pdf)] 
+[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustAssessment32.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/SAC-DADS2021.pdf)] [[dataset](https://doi.org/10.5281/zenodo.4312801)] 
  *  **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In *IEEE INFOCOM*, 1–10. Virtual Event, Canada, 10–13 May 2021. IEEE. To Appear.  
-[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustTrackersComputation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/InfoCom2021.pdf)] 
+[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustTrackersComputation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/InfoCom2021.pdf)] [[dataset](https://doi.org/10.5281/zenodo.4339398)] 
  
 #### 2020
 
@@ -24,7 +24,7 @@
 
  
  *  **Matthew Bradbury**, Arshad Jhumka, and Carsten Maple. The Impact of Decreasing Transmit Power Levels on FlockLab To Achieve a Sparse Network. In *Proceedings of the 2nd Workshop on Benchmarking Cyber-Physical Systems and Internet of Things*, CPS-IoTBench '19, 7–12. New York, NY, USA, April 2019. ACM. [doi:10.1145/3312480.3313171](https://doi.org/10.1145/3312480.3313171).  
-[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2019_ImpactDecreasingTransmit.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/CPS-IoTBench2019.pdf)] [[presentation](https://github.com/MBradbury/publications/raw/master/presentations/CPS-IoTBench2019.pdf)] 
+[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2019_ImpactDecreasingTransmit.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/CPS-IoTBench2019.pdf)] [[presentation](https://github.com/MBradbury/publications/raw/master/presentations/CPS-IoTBench2019.pdf)] [[dataset](https://doi.org/10.5281/zenodo.2528757)] 
  *  Jasmine Grosso, Arshad Jhumka, and **Matthew Bradbury**. Reliable Many-to-Many Routing in Wireless Sensor Networks Using Ant Colony Optimisation. In *15th European Dependable Computing Conference (EDCC)*, 111–118. September 2019. [doi:10.1109/EDCC.2019.00030](https://doi.org/10.1109/EDCC.2019.00030).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Grosso_2019_ReliableManyMany.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/EDCC2019.pdf)] 
  *  Marie Farrell, **Matthew Bradbury**, Michael Fisher, Louise A. Dennis, Clare Dixon, Hu Yuan, and Carsten Maple. Using Threat Analysis Techniques to Guide Formal Verification: A Case Study of Cooperative Awareness Messages. In Peter Csaba Ölveczky and Gwen Salaün, editors, *Software Engineering and Formal Methods*, 471–490. Cham, 2019. Springer International Publishing. [doi:10.1007/978-3-030-30446-1\_25](https://doi.org/10.1007/978-3-030-30446-1_25).  
@@ -40,7 +40,7 @@
 
  
  *  Chen Gu, **Matthew Bradbury**, Jack Kirton, and Arshad Jhumka. A Decision Theoretic Framework for Selecting Source Location Privacy Aware Routing Protocols in Wireless Sensor Networks. *Future Generation Computing Systems*, 87:514–526, 2018. [doi:10.1016/j.future.2018.01.046](https://doi.org/10.1016/j.future.2018.01.046).  
-[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Gu_2018_ADecisionTheoretic.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/FGCS2018.pdf)] 
+[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Gu_2018_ADecisionTheoretic.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/FGCS2018.pdf)] [[dataset](https://doi.org/10.5281/zenodo.1045453)] 
  *  **Matthew Bradbury**, Arshad Jhumka, and Matthew Leeke. Hybrid Online Protocols for Source Location Privacy in Wireless Sensor Networks. *Journal of Parallel and Distributed Computing*, 115:67–81, May 2018. [doi:10.1016/j.jpdc.2018.01.006](https://doi.org/10.1016/j.jpdc.2018.01.006).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2018_HybridOnlineProtocols.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/JPDC2018.pdf)] 
  *  Jack Kirton, **Matthew Bradbury**, and Arshad Jhumka. Towards optimal source location privacy-aware TDMA schedules in wireless sensor networks. *Computer Networks*, 146:125–137, 2018. [doi:10.1016/j.comnet.2018.09.010](https://doi.org/10.1016/j.comnet.2018.09.010).  
@@ -50,7 +50,7 @@
 
  
  *  **Matthew Bradbury** and Arshad Jhumka. A Near-Optimal Source Location Privacy Scheme for Wireless Sensor Networks. In *16th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)*, 409–416. August 2017. [doi:10.1109/Trustcom/BigDataSE/ICESS.2017.265](https://doi.org/10.1109/Trustcom/BigDataSE/ICESS.2017.265).  
-[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2017_OptimalSourceLocation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/TrustCom2017.pdf)] [[presentation](https://github.com/MBradbury/publications/raw/master/presentations/TrustCom2017.pdf)] 
+[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2017_OptimalSourceLocation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/TrustCom2017.pdf)] [[presentation](https://github.com/MBradbury/publications/raw/master/presentations/TrustCom2017.pdf)] [[dataset](https://doi.org/10.5281/zenodo.801222)] 
  *  Arshad Jhumka and **Matthew Bradbury**. Deconstructing Source Location Privacy-aware Routing Protocols. In *Proceedings of the Symposium on Applied Computing*, SAC'17, 431–436. ACM, April 2017. [doi:10.1145/3019612.3019655](https://doi.org/10.1145/3019612.3019655).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Jhumka_2017_DeconstructingSourceLocation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/SAC-DADS2017.pdf)] [[presentation](https://github.com/MBradbury/publications/raw/master/presentations/SAC-DADS2017.pdf)] 
  *  Chen Gu, **Matthew Bradbury**, and Arshad Jhumka. Phantom Walkabouts in Wireless Sensor Networks. In *Proceedings of the Symposium on Applied Computing*, SAC'17, 609–616. ACM, April 2017. [doi:10.1145/3019612.3019732](https://doi.org/10.1145/3019612.3019732).  
@@ -98,7 +98,7 @@
 
   
  *  **Matthew Bradbury**. *Near Optimal Routing Protocols for Source Location Privacy in Wireless Sensor Networks: Modelling, Design and Evaluation*. PhD thesis, University of Warwick, Coventry, UK, 2018. URL: <http://wrap.warwick.ac.uk/115772>.  
-[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2018_NearOptimalRouting.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/Thesis.pdf)] 
+[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2018_NearOptimalRouting.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/Thesis.pdf)] [[dataset](https://doi.org/10.5281/zenodo.1209158)] 
  
 ## Technical Reports
 

@@ -77,6 +77,10 @@ for section_name, section_types in sections.items():
             if os.path.exists(presentation_path):
                 extra_links.append(f'[<a href="{root_dir}/{presentation_path}">presentation</a>]')
 
+        if "dataset" in entry.fields:
+            dataset_path = entry.fields["dataset"]
+            extra_links.append(f'[<a href="{dataset_path}">dataset</a>]')
+
         if extra_links:
             html_output += "<br/>" + " ".join(extra_links)
 
