@@ -27,6 +27,8 @@ bibtex_dir = "bibtex"
 highlight_author = "Matthew Bradbury"
 root_dir = "https://github.com/MBradbury/publications/raw/master"
 
+publication_h_number = 4
+
 html_output = ""
 
 for section_name, section_types in sections.items():
@@ -47,7 +49,7 @@ for section_name, section_types in sections.items():
                 if cur_year is not None:  # not first year group
                     html_output += "\t</ul>\n"
                 cur_year = entry.fields["year"]
-                html_output += f"\t<h4 id='pub_{cur_year}'>{cur_year}</h4>\n\t<ul>\n"
+                html_output += f"\t<h{publication_h_number} id='pub_{cur_year}'>{cur_year}</h{publication_h_number}>\n\t<ul>\n"
         else:
             if cur_year is None:
                 html_output += "\t<ul>\n"
@@ -57,7 +59,7 @@ for section_name, section_types in sections.items():
         pub_html = pub_html.replace("\n", " ")
         if highlight_author:  # highlight an author (usually oneself)
             pub_html = pub_html.replace(highlight_author, "<strong>{}</strong>".format(highlight_author), 1)
-        html_output += '\t\t<li class="publication">\n\t\t\t' + pub_html
+        html_output += f'\t\t<li class="publication" id="{entry.key.replace(":", "_")}">\n\t\t\t' + pub_html
 
         extra_links = []
         if bibtex_dir:  # write bib files to bibtex_dir for downloading
