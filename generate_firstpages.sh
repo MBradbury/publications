@@ -6,19 +6,19 @@ mkdir -p presentations-firstpages
 for paper in papers/*.pdf
 do
 	target="firstpages/$(basename $paper)"
-	target=${target//pdf/png}
+	target=${target//pdf/svg}
 
 	echo "$paper -> $target"
 
-	gs -o "$target" -sDEVICE=png16m -r300 -dDownScaleFactor=3 -dFirstPage=1 -dPDFLastPage=1 "$paper"
+	pdftocairo -svg -f 1 -l 1 "$paper" "$target"
 done
 
 for paper in presentations/*.pdf
 do
 	target="presentations-firstpages/$(basename $paper)"
-	target=${target//pdf/png}
+	target=${target//pdf/svg}
 
 	echo "$paper -> $target"
 
-	gs -o "$target" -sDEVICE=png16m -r300 -dDownScaleFactor=3 -dFirstPage=1 -dPDFLastPage=1 "$paper"
+	pdftocairo -svg -f 1 -l 1 "$paper" "$target"
 done
