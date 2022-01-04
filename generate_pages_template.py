@@ -4,6 +4,7 @@
 import os.path
 import re
 import pathlib
+import time
 
 from markdownify import markdownify as md
 
@@ -54,8 +55,17 @@ for section_name, section_types in sections.items():
         with open(this_paper, "w") as this_paper_file:
             print("---", file=this_paper_file)
             print(f"title: \"{entry.fields['title'].replace('{', '').replace('}', '')}\"", file=this_paper_file)
-            #print(f"date: \"{entry.fields.get('month', '').replace('--', '-')} {entry.fields['year']}\"", file=this_paper_file)
             print(f"citation: \"{pub_md}\"", file=this_paper_file)
+
+            print(entry.fields.get('month', ''))
+            month = entry.fields.get('month', 'January')
+
+            # Need to strip dates out of month
+            if '--' in month:
+                month = month.split(' ', 1)[1]
+
+            month = str(time.strptime(month, '%B').tm_mon).zfill(2)
+            print(f"publishDate: \"{entry.fields['year']}-{month}\"", file=this_paper_file)
 
             if "file" in entry.fields:  # the link to the pdf file
                 (a, filename, kind) = entry.fields["file"].split(":", 2)
