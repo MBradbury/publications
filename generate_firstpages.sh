@@ -1,4 +1,5 @@
 #!/bin/bash
+# sudo apt-get install poppler-utils
 
 mkdir -p firstpages
 mkdir -p presentations-firstpages
