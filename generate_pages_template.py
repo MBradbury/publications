@@ -72,9 +72,13 @@ for section_name, section_types in sections.items():
 
                 print(f"file: {root_dir}/papers/{filename}", file=this_paper_file)
 
-                presentation_path = os.path.join("presentations", filename)
-                if os.path.exists(presentation_path):
-                    print(f"presentation: {root_dir}/presentations/{filename}", file=this_paper_file)
+                firstpage_path = (pathlib.Path("firstpages") / filename).with_suffix('.svg')
+                if firstpage_path.exists():
+                    print(f"firstpage: {root_dir}/{firstpage_path}", file=this_paper_file)
+
+                presentation_path = pathlib.Path("presentations") / filename
+                if presentation_path.exists():
+                    print(f"presentation: {root_dir}/{presentation_path}", file=this_paper_file)
 
             print(f"bibtex: {root_dir}/{bibtex_dir}/{sanitised_label}.bib", file=this_paper_file)
             
