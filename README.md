@@ -5,7 +5,7 @@
 #### 2022
 
 
-* **Matthew Bradbury**, Arshad Jhumka, Tim Watson, Denys Flores, Jonathan Burton, and Matthew Butler. Threat Modelling Guided Trust-based Task Offloading for Resource-constrained Internet of Things. *ACM Transactions on Sensor Networks*, 1(1):41, January 2022. [doi:10.1145/3510424](https://doi.org/10.1145/3510424).  
+* **Matthew Bradbury**, Arshad Jhumka, Tim Watson, Denys Flores, Jonathan Burton, and Matthew Butler. Threat-Modeling-Guided Trust-Based Task Offloading for Resource-Constrained Internet of Things. *ACM Transactions on Sensor Networks*, 18(2):41, 2022. [doi:10.1145/3510424](https://doi.org/10.1145/3510424).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2022_ThreatModellingGuided.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/TOSN2022.pdf)] [[dataset](https://doi.org/10.5281/zenodo.4568700)]
 
 
@@ -16,7 +16,7 @@
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_SpatialSourceLocation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/TIOT2021.pdf)]
 * **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Assessment in 32 KiB of RAM: Multi-application Trust-based Task Offloading for Resource-constrained IoT Nodes. In *The 36th ACM/SIGAPP Symposium on Applied Computing*, SAC'21, 1–10. Virtual Event, Republic of Korea, 22–26 March 2021. ACM. [doi:10.1145/3412841.3441898](https://doi.org/10.1145/3412841.3441898).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustAssessment32.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/SAC-DADS2021.pdf)] [[presentation](https://github.com/MBradbury/publications/raw/master/presentations/SAC-DADS2021.pdf)] [[dataset](https://doi.org/10.5281/zenodo.4312801)]
-* **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In *IEEE INFOCOM*, 1–10. Virtual Event, Canada, 10–13 May 2021. IEEE. [doi:10.1109/INFOCOM42981.2021.9488844](https://doi.org/10.1109/INFOCOM42981.2021.9488844).  
+* **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Trust Trackers for Computation Offloading in Edge-Based IoT Networks. In *IEEE INFOCOM*, 1–10. Vancouver, BC, Canada, 10–13 May 2021. IEEE. [doi:10.1109/INFOCOM42981.2021.9488844](https://doi.org/10.1109/INFOCOM42981.2021.9488844).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2021_TrustTrackersComputation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/InfoCom2021.pdf)] [[presentation](https://github.com/MBradbury/publications/raw/master/presentations/InfoCom2021.pdf)] [[dataset](https://doi.org/10.5281/zenodo.4339398)]
 
 
@@ -40,7 +40,7 @@
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Grosso_2019_ReliableManyMany.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/EDCC2019.pdf)]
 * Marie Farrell, **Matthew Bradbury**, Michael Fisher, Louise A. Dennis, Clare Dixon, Hu Yuan, and Carsten Maple. Using Threat Analysis Techniques to Guide Formal Verification: A Case Study of Cooperative Awareness Messages. In Peter Csaba Ölveczky and Gwen Salaün, editors, *Software Engineering and Formal Methods*, 471–490. Cham, September 2019. Springer International Publishing. [doi:10.1007/978-3-030-30446-1\_25](https://doi.org/10.1007/978-3-030-30446-1_25).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Farrell_2019_UsingThreatAnalysis.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/SEFM2019.pdf)]
-* Hu Yuan, **Matthew Bradbury**, Carsten Maple, and Chen Gu. Throughput Aware Authentication Prioritisation for Vehicular Communication Networks. In *90th IEEE Vehicular Technology Conference (VTC2019-Fall)*, 1–5. Sep. 2019. [doi:10.1109/VTCFall.2019.8891375](https://doi.org/10.1109/VTCFall.2019.8891375).  
+* Hu Yuan, **Matthew Bradbury**, Carsten Maple, and Chen Gu. Throughput Aware Authentication Prioritisation for Vehicular Communication Networks. In *90th IEEE Vehicular Technology Conference (VTC2019-Fall)*, 1–5. September 2019. [doi:10.1109/VTCFall.2019.8891375](https://doi.org/10.1109/VTCFall.2019.8891375).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Yuan_2019_ThroughputAwareAuthentication.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/VTC-Fall2019.pdf)]
 * Carsten Maple, **Matthew Bradbury**, Anh Tuan Le, and Kevin Ghirardello. A Connected and Autonomous Vehicle Reference Architecture for Attack Surface Analysis. *Applied Sciences*, 9(23):5101, November 2019. [doi:10.3390/app9235101](https://doi.org/10.3390/app9235101).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Maple_2019_ConnectedAutonomousVehicle.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/AppSci2019.pdf)]
@@ -118,7 +118,7 @@
 
 
 
-* **Matthew Bradbury**. *Near Optimal Routing Protocols for Source Location Privacy in Wireless Sensor Networks: Modelling, Design and Evaluation*. PhD thesis, University of Warwick, Coventry, UK, 2018. URL: <http://wrap.warwick.ac.uk/115772>.  
+* **Matthew Bradbury**. *Near Optimal Routing Protocols for Source Location Privacy in Wireless Sensor Networks: Modelling, Design and Evaluation*. PhD thesis, University of Warwick, Coventry, UK, May 2018. URL: <http://wrap.warwick.ac.uk/115772>.  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2018_NearOptimalRouting.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/Thesis.pdf)] [[dataset](https://doi.org/10.5281/zenodo.1209158)]
 
 
