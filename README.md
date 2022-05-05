@@ -7,7 +7,7 @@
 
 * **Matthew Bradbury**, Arshad Jhumka, Tim Watson, Denys Flores, Jonathan Burton, and Matthew Butler. Threat-Modeling-Guided Trust-Based Task Offloading for Resource-Constrained Internet of Things. *ACM Transactions on Sensor Networks*, 18(2):41, 2022. [doi:10.1145/3510424](https://doi.org/10.1145/3510424).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2022_ThreatModellingGuided.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/TOSN2022.pdf)] [[dataset](https://doi.org/10.5281/zenodo.4568700)]
-* **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Information Management for Trust Computation on Resource-constrained IoT Devices. *Future Generation Computing Systems*, 2022. To Appear.  
+* **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Information Management for Trust Computation on Resource-constrained IoT Devices. *Future Generation Computer Systems*, 2022. To Appear.  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2022_InformationManagementTrust.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/FGCS2022.pdf)]
 
 
@@ -53,7 +53,7 @@
 #### 2018
 
 
-* Chen Gu, **Matthew Bradbury**, Jack Kirton, and Arshad Jhumka. A Decision Theoretic Framework for Selecting Source Location Privacy Aware Routing Protocols in Wireless Sensor Networks. *Future Generation Computing Systems*, 87:514–526, October 2018. [doi:10.1016/j.future.2018.01.046](https://doi.org/10.1016/j.future.2018.01.046).  
+* Chen Gu, **Matthew Bradbury**, Jack Kirton, and Arshad Jhumka. A Decision Theoretic Framework for Selecting Source Location Privacy Aware Routing Protocols in Wireless Sensor Networks. *Future Generation Computer Systems*, 87:514–526, October 2018. [doi:10.1016/j.future.2018.01.046](https://doi.org/10.1016/j.future.2018.01.046).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Gu_2018_ADecisionTheoretic.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/FGCS2018.pdf)] [[dataset](https://doi.org/10.5281/zenodo.1045453)]
 * **Matthew Bradbury**, Arshad Jhumka, and Matthew Leeke. Hybrid Online Protocols for Source Location Privacy in Wireless Sensor Networks. *Journal of Parallel and Distributed Computing*, 115:67–81, May 2018. [doi:10.1016/j.jpdc.2018.01.006](https://doi.org/10.1016/j.jpdc.2018.01.006).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2018_HybridOnlineProtocols.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/JPDC2018.pdf)]
