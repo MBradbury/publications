@@ -7,7 +7,7 @@
 
 * **Matthew Bradbury**, Arshad Jhumka, Tim Watson, Denys Flores, Jonathan Burton, and Matthew Butler. Threat-Modeling-Guided Trust-Based Task Offloading for Resource-Constrained Internet of Things. *ACM Transactions on Sensor Networks*, 18(2):41, 2022. [doi:10.1145/3510424](https://doi.org/10.1145/3510424).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2022_ThreatModellingGuided.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/TOSN2022.pdf)] [[dataset](https://doi.org/10.5281/zenodo.4568700)]
-* **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Information Management for Trust Computation on Resource-constrained IoT Devices. *Future Generation Computer Systems*, 2022. To Appear.  
+* **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Information Management for Trust Computation on Resource-constrained IoT Devices. *Future Generation Computer Systems*, 2022. To Appear. [doi:10.1016/j.future.2022.05.004](https://doi.org/10.1016/j.future.2022.05.004).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2022_InformationManagementTrust.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/FGCS2022.pdf)]
 
 
@@ -27,7 +27,7 @@
 
 * Carsten Maple, **Matthew Bradbury**, Hu Yuan, Marie Farrell, Clare Dixon, Michael Fisher, and Uger Ilker Atmaca. Security-Minded Verification of Space Systems. In *IEEE Aerospace Conference*. Big Sky, Montana, USA, 7–14 March 2020. IEEE. [doi:10.1109/AERO47225.2020.9172563](https://doi.org/10.1109/AERO47225.2020.9172563).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Maple_2020_SecurityMindedVerification.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/AeroConf2020-SMV.pdf)]
-* **Matthew Bradbury**, Carsten Maple, Uger Ilker Atmaca, and Sara Cannizzaro. Identifying Attack Surfaces in the Evolving Space Industry Using Reference Architectures. In *IEEE Aerospace Conference*. Big Sky, Montana, USA, 7–14 March 2020. IEEE. [doi:10.1109/AERO47225.2020.9172785](https://doi.org/10.1109/AERO47225.2020.9172785).  
+* **Matthew Bradbury**, Carsten Maple, Hu Yuan, Uger Ilker Atmaca, and Sara Cannizzaro. Identifying Attack Surfaces in the Evolving Space Industry Using Reference Architectures. In *IEEE Aerospace Conference*. Big Sky, Montana, USA, 7–14 March 2020. IEEE. [doi:10.1109/AERO47225.2020.9172785](https://doi.org/10.1109/AERO47225.2020.9172785).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2020_IdentifyingAttackSurfaces.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/AeroConf2020-SRA.pdf)]
 * **Matthew Bradbury**, Phillip Taylor, Ugur Ilker Atmaca, Carsten Maple, and Nathan Griffiths. Privacy Challenges with Protecting Live Vehicular Location Context. *IEEE Access*, 8:207465–207484, November 2020. [doi:10.1109/ACCESS.2020.3038533](https://doi.org/10.1109/ACCESS.2020.3038533).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2020_PrivacyChallengesProtecting.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/Access2020.pdf)]
