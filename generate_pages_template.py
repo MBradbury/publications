@@ -67,6 +67,8 @@ for section_name, section_types in sections.items():
             month = str(time.strptime(month, '%B').tm_mon).zfill(2)
             print(f"publishDate: \"{entry.fields['year']}-{month}\"", file=this_paper_file)
 
+            print(f"abstract: \"{entry.fields.get('abstract', '')}\"", file=this_paper_file)
+
             if "file" in entry.fields:  # the link to the pdf file
                 (a, filename, kind) = entry.fields["file"].split(":", 2)
 

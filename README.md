@@ -64,7 +64,7 @@
 #### 2017
 
 
-* **Matthew Bradbury** and Arshad Jhumka. A Near-Optimal Source Location Privacy Scheme for Wireless Sensor Networks. In *16th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)*, 409–416. August 2017. [doi:10.1109/Trustcom/BigDataSE/ICESS.2017.265](https://doi.org/10.1109/Trustcom/BigDataSE/ICESS.2017.265).  
+* **Matthew Bradbury** and Arshad Jhumka. A Near-Optimal Source Location Privacy Scheme for Wireless Sensor Networks. In *16th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)*, 409–416. Sydney, NSW, Australia, August 2017. IEEE. [doi:10.1109/Trustcom/BigDataSE/ICESS.2017.265](https://doi.org/10.1109/Trustcom/BigDataSE/ICESS.2017.265).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2017_OptimalSourceLocation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/TrustCom2017.pdf)] [[presentation](https://github.com/MBradbury/publications/raw/master/presentations/TrustCom2017.pdf)] [[dataset](https://doi.org/10.5281/zenodo.801222)]
 * Arshad Jhumka and **Matthew Bradbury**. Deconstructing Source Location Privacy-aware Routing Protocols. In *Proceedings of the Symposium on Applied Computing*, SAC'17, 431–436. ACM, April 2017. [doi:10.1145/3019612.3019655](https://doi.org/10.1145/3019612.3019655).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Jhumka_2017_DeconstructingSourceLocation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/SAC-DADS2017.pdf)] [[presentation](https://github.com/MBradbury/publications/raw/master/presentations/SAC-DADS2017.pdf)]
