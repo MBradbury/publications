@@ -61,7 +61,10 @@ for section_name, section_types in sections.items():
             month = entry.fields.get('month', 'January')
 
             # Need to strip dates out of month
-            if '--' in month:
+            # two options "x--y Month" or "X Month1 -- Y Month2"
+            if ' -- ' in month:
+                month = month.split(' ')[1]
+            elif '--' in month:
                 month = month.split(' ', 1)[1]
 
             month = str(time.strptime(month, '%B').tm_mon).zfill(2)
