@@ -61,14 +61,25 @@ for section_name, section_types in sections.items():
             month = entry.fields.get('month', 'January')
 
             # Need to strip dates out of month
-            # two options "x--y Month" or "X Month1 -- Y Month2"
-            if ' -- ' in month:
-                month = month.split(' ')[1]
+            # Three options "x Month", "x--y Month" or "X Month1 -- Y Month2"
+            if '--' not in month and ' ' in month:
+                month_split = month.split(' ')
+                day = month_split[0]
+                month = month_split[1]
+            elif ' -- ' in month:
+                month_split = month.split(' ')
+                day = month_split[0]
+                month = month_split[1]
             elif '--' in month:
+                day = month.split('--', 1)[0]
                 month = month.split(' ', 1)[1]
+            else:
+                day = "1"
 
+            day = str(int(day)).zfill(2)
             month = str(time.strptime(month, '%B').tm_mon).zfill(2)
-            print(f"publishDate: \"{entry.fields['year']}-{month}\"", file=this_paper_file)
+            print(f"publishDate: \"{entry.fields['year']}-{month}-{day}\"", file=this_paper_file)
+            print(f"Assumed date: {entry.fields['year']}-{month}-{day}")
 
             print(f"abstract: \"{entry.fields.get('abstract', '')}\"", file=this_paper_file)
 
