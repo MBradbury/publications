@@ -78,7 +78,7 @@ for section_name, section_types in sections.items():
 
             day = str(int(day)).zfill(2)
             month = str(time.strptime(month, '%B').tm_mon).zfill(2)
-            print(f"publishDate: \"{entry.fields['year']}-{month}-{day}\"", file=this_paper_file)
+            print(f"publishDate: {entry.fields['year']}-{month}-{day}", file=this_paper_file)
             print(f"Assumed date: {entry.fields['year']}-{month}-{day}")
 
             print(f"abstract: \"{entry.fields.get('abstract', '')}\"", file=this_paper_file)
@@ -95,6 +95,10 @@ for section_name, section_types in sections.items():
                 presentation_path = pathlib.Path("presentations") / filename
                 if presentation_path.exists():
                     print(f"presentation: {root_dir}/{presentation_path}", file=this_paper_file)
+
+                poster_path = pathlib.Path("posters") / filename
+                if poster_path.exists():
+                    print(f"poster: {root_dir}/{poster_path}", file=this_paper_file)
 
             print(f"bibtex: {root_dir}/{bibtex_dir}/{sanitised_label}.bib", file=this_paper_file)
             
