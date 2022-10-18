@@ -60,6 +60,7 @@
   booktitle = {Proceedings of the Symposium on Applied Computing},
   title     = {{Deconstructing Source Location Privacy-aware Routing Protocols}},
   year      = {2017},
+  address   = {Marrakech, Morocco},
   month     = {03--07 April},
   pages     = {431--436},
   publisher = {ACM},
@@ -70,7 +71,6 @@
   file      = {:SAC-DADS2017.pdf:PDF},
   isbn      = {978-1-4503-4486-9},
   keywords  = {components, decomposition, routing, source location privacy, spatial, temporal, wireless sensor networks},
-  location  = {Marrakech, Morocco},
   numpages  = {6},
 }
 
@@ -123,6 +123,7 @@
   booktitle = {Proceedings of the Symposium on Applied Computing},
   title     = {{Phantom Walkabouts in Wireless Sensor Networks}},
   year      = {2017},
+  address   = {Marrakech, Morocco},
   month     = {03--07 April},
   pages     = {609--616},
   publisher = {ACM},
@@ -133,7 +134,6 @@
   file      = {:SAC-NET2017.pdf:PDF},
   isbn      = {978-1-4503-4486-9},
   keywords  = {phantom routing, phantom walkabouts, routing, source location privacy, wireless sensor networks},
-  location  = {Marrakech, Morocco},
   numpages  = {8},
 }
 
@@ -197,6 +197,7 @@
   booktitle = {IEEE INFOCOM},
   title     = {{Understanding Source Location Privacy Protocols in Sensor Networks via Perturbation of Time Series}},
   year      = {2017},
+  address   = {Atlanta, GA, USA},
   month     = {01--04 May},
   pages     = {1611--1619},
   abstract  = {Source location privacy (SLP) is becoming an important property for a large class of security-critical wireless sensor network applications such as monitoring and tracking. Much of the previous work on SLP has focused on the development of various protocols to enhance the level of SLP imparted to the network, under various attacker models and other conditions. Other work has focused on analysing the level of SLP being imparted by a specific protocol. In this paper, we adopt a different approach where we model the attacker movement as a time series and use information theoretic concepts to infer the properties of a routing protocol that imparts high levels of SLP. We propose the notion of a properly competing path that causes an attacker to “stall” when moving towards the source. This concept provides the basis for developing a perturbation model, similar to those in privacy-preserving data mining. We then show how to use properly competing paths to develop properties of an SLP-aware routing protocol. Further, we show how different SLP-aware routing protocols can be obtained through different instantiations of the framework. Those instantiations are obtained based on a notion of information loss achieved through the use of the perturbation model proposed.},
@@ -563,6 +564,27 @@ security testing in real world environments.},
   abstract  = {A variety of Threat Analysis (TA) techniques exist that typically target exploring threats to discrete assets (e.g., services, data, etc.) and reveal potential attacks pertinent to these assets. Furthermore, these techniques assume that the interconnection among the assets is static. However, in the Cloud, resources can instantiate or migrate across physical hosts at run-time, thus making the Cloud a dynamic environment. Additionally, the number of attacks targeting multiple assets/layers emphasizes the need for threat analysis approaches developed for Cloud environments. Therefore, this proposal presents a threat analysis approach that addresses multi-layer attacks. The proposed approach facilitates threat analysis by developing a technology-agnostic information flow model. It contributes to exploring a threat’s propagation across the operational stack of the Cloud and, consequently, assessing the security of the Cloud holistically.},
   file      = {:CCS2022-Cloud.pdf:PDF},
   doi       = {10.1145/3548606.3563515},
+}
+
+@InProceedings{Bradbury:2022:AttributesDimensionsTrust,
+  author    = {Matthew Bradbury and Daniel Prince and Victoria Marcinkiewicz and Tim Watson},
+  booktitle = {Proceedings of the 1st International Workshop on Socio-technical Cybersecurity and Resilience in the Internet of Things},
+  title     = {{Attributes and Dimensions of Trust in Secure Systems}},
+  year      = {2022},
+  address   = {Delft, Netherlands},
+  month     = {7 November},
+  series    = {STaR-IoT'22},
+  abstract  = {What is it to be trusted? This is an important question as trust is increasingly placed in a system and the degree to which a system is trusted is increasingly being assessed. However, there are issues with how related terms are used. Many definitions focus on one attribute of trust (typically behaviour) preventing that definition from being used for other attributes (e.g., identity). This is confused further by conflating what trustors measure about a trustee and what conclusions a trustor reaches about a trustee. Therefore, in this paper we present definitions of measures (trustiness and trustworthiness) and conclusions (trusted and trustworthy). These definitions are general and do not refer to a specific attribute allowing them to be used with arbitrary attributes which are being assessed (e.g., identity, behaviour, limitation, execution, correctness, data, environment). In addition, in order to demonstrate the complexities of describing if a trustee is designated as trusted or trustworthy, a set of dimensions are defined to describe attributes (time, scale, proactive/reactive, strength, scope, source). Finally, an example system is classified using these attributes and their dimensions in order to highlight the complexities of describing a system as holistically trusted or trustworthy.},
+  file      = {:STaR-IoT2022.pdf:PDF},
+}
+
+@Article{Bradbury:2022:QuantifyingSourceLocation,
+  author   = {Matthew Bradbury and Arshad Jhumka},
+  journal  = {IEEE Transactions on Information Forensics and Security},
+  title    = {{Quantifying Source Location Privacy Routing Performance via Divergence and Information Loss}},
+  year     = {2022},
+  abstract = {Source location Privacy (SLP) is an important property for security critical applications deployed over a wireless sensor network. This property specifies that the location of the source of messages needs to be kept secret from an eavesdropping adversary that is able to move around the network. Most previous work on SLP has focused on developing protocols to enhance the SLP imparted to the network under various attacker models and other conditions. Other works have focused on analysing the level of SLP being imparted by a specific protocol. In this paper, we introduce the notion of a routing matrix which captures when messages are first received. We then introduce a novel approach where an optimal SLP routing matrix is derived. In this approach, the attacker's movement is modelled as a Markov chain where measures of conditional entropy and divergence are used to compare routing matrices and quantify if they provide high levels of SLP. We propose the notion of a properly competing paths that causes an attacker to divert when moving towards the source. This concept provides the basis for developing a perturbation model, similar to those used in privacy-preserving data mining. We formally prove that properly competing paths are both necessary and sufficient in ensuring the existence of an SLP-aware routing matrix and show their usage in developing an SLP-aware routing matrix. Further, we show how different SLP-aware routing matrices can be obtained through different instantiations of the framework. Those instantiations are obtained based on a notion of information loss achieved through the use of the perturbation model proposed.},
+  file     = {:TIFS2022.pdf:PDF},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
