@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # Based on: https://github.com/StreakyCobra/plugins/blob/master/v7/publication_list/publication_list.py
 
-import os.path
 import re
+import pathlib
 
 from markdownify import markdownify as md
 
@@ -71,15 +71,15 @@ for section_name, section_types in sections.items():
         if "file" in entry.fields:  # the link to the pdf file
             (a, filename, kind) = entry.fields["file"].split(":", 2)
 
-            file_path = os.path.join("papers", filename)
-            presentation_path = os.path.join("presentations", filename)
+            file_path = pathlib.Path("papers") / filename
+            presentation_path = pathlib.Path("presentations") / filename
 
             extra_links.append(f'[<a href="{root_dir}/{file_path}">file</a>]')
 
             if "presentation" in entry.fields:
                 (_, presentation_filename, _) = entry.fields["presentation"].split(":", 2)
-                presentation_path = os.path.join("presentations", presentation_filename)
-            if os.path.exists(presentation_path):
+                presentation_path = pathlib.Path("presentations") / presentation_filename
+            if presentation_path.exists():
                 extra_links.append(f'[<a href="{root_dir}/{presentation_path}">presentation</a>]')
 
         if "dataset" in entry.fields:

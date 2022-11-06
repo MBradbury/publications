@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # Based on: https://github.com/StreakyCobra/plugins/blob/master/v7/publication_list/publication_list.py
 
-import os.path
 import re
 import pathlib
 import time
