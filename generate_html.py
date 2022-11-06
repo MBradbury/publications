@@ -76,6 +76,9 @@ for section_name, section_types in sections.items():
 
             extra_links.append(f'[<a href="{root_dir}/{file_path}">file</a>]')
 
+            if "presentation" in entry.fields:
+                (_, presentation_filename, _) = entry.fields["presentation"].split(":", 2)
+                presentation_path = os.path.join("presentations", presentation_filename)
             if os.path.exists(presentation_path):
                 extra_links.append(f'[<a href="{root_dir}/{presentation_path}">presentation</a>]')
 

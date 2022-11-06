@@ -6,7 +6,7 @@
 
 
 * **Matthew Bradbury**, Arshad Jhumka, Tim Watson, Denys Flores, Jonathan Burton, and Matthew Butler. Threat-Modeling-Guided Trust-Based Task Offloading for Resource-Constrained Internet of Things. *ACM Transactions on Sensor Networks*, 18(2):41, May 2022. [doi:10.1145/3510424](https://doi.org/10.1145/3510424).  
-[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2022_ThreatModellingGuided.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/TOSN2022.pdf)] [[dataset](https://doi.org/10.5281/zenodo.4568700)]
+[[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2022_ThreatModellingGuided.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/TOSN2022.pdf)] [[presentation](https://github.com/MBradbury/publications/raw/master/presentations/SenSys2022.pdf)] [[dataset](https://doi.org/10.5281/zenodo.4568700)]
 * **Matthew Bradbury**, Arshad Jhumka, and Tim Watson. Information Management for Trust Computation on Resource-constrained IoT Devices. *Future Generation Computer Systems*, 135:348–363, October 2022. [doi:10.1016/j.future.2022.05.004](https://doi.org/10.1016/j.future.2022.05.004).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2022_InformationManagementTrust.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/FGCS2022.pdf)] [[dataset](https://doi.org/10.5281/zenodo.4353611)]
 * Yiqun Chen, Oliver Schwahn, Roberto Natella, **Matthew Bradbury**, and Neeraj Suri. SlowCoach: Mutating Code to Simulate Performance Bugs. In *The 33rd IEEE International Symposium on Software Reliability Engineering*, ISSRE. Charlotte, North Carolina, USA, 31 October – 3 November 2022.  

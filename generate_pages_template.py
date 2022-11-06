@@ -93,6 +93,11 @@ for section_name, section_types in sections.items():
                     print(f"firstpage: {root_dir}/{firstpage_path}", file=this_paper_file)
 
                 presentation_path = pathlib.Path("presentations") / filename
+                if not presentation_path.exists():
+                    if "presentation" in entry.fields:
+                        (_, presentation_filename, _) = entry.fields["presentation"].split(":", 2)
+                        presentation_path = pathlib.Path("presentations") / presentation_filename
+
                 if presentation_path.exists():
                     print(f"presentation: {root_dir}/{presentation_path}", file=this_paper_file)
 
