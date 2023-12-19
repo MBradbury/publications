@@ -5,7 +5,7 @@
 #### 2023
 
 
-* Marie Farrell, **Matthew Bradbury**, Rafael C. Cardoso, Michael Fisher, Louise A. Dennis, Clare Dixon, Al Tariq Sheik, Hu Yuan, and Carsten Maple. Security-Minded Verification of Cooperative Awareness Messages. *IEEE Transactions on Dependable and Secure Computing*, pages 18, December 2023.  
+* Marie Farrell, **Matthew Bradbury**, Rafael C. Cardoso, Michael Fisher, Louise A. Dennis, Clare Dixon, Al Tariq Sheik, Hu Yuan, and Carsten Maple. Security-Minded Verification of Cooperative Awareness Messages. *IEEE Transactions on Dependable and Secure Computing*, pages 18, December 2023. [doi:10.1109/TDSC.2023.3345543](https://doi.org/10.1109/TDSC.2023.3345543).  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Farrell_2023_SecurityMindedVerification.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/TDSC2023.pdf)]
 
 
