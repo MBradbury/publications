@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # Based on: https://github.com/StreakyCobra/plugins/blob/master/v7/publication_list/publication_list.py
 
-import os.path
-
 from pybtex.plugin import find_plugin
 from pybtex.database import parse_file
 from pybtex.database import BibliographyData
@@ -10,7 +8,7 @@ from pybtex.database import BibliographyData
 style = find_plugin('pybtex.style.formatting', 'plain')(abbreviate_names=True)
 
 def process_bib(filename, sections):
-    with open(filename) as bibtex_file:
+    with open(filename, encoding="utf-8") as bibtex_file:
         db = parse_file(bibtex_file, 'bibtex')
 
     data = list(sorted(db.entries.items(), key=lambda e: e[1].fields.get("year", 0), reverse=True))
@@ -82,5 +80,5 @@ tex_output += process_bib("event.bib", sections={
     "Event Reports": {"article", "techreport"},
 })
 
-with open("out.tex", "w") as out:
+with open("out.tex", "w", encoding="utf-8") as out:
     print(tex_output, file=out)
