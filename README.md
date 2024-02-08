@@ -5,7 +5,7 @@
 #### 2024
 
 
-* Salman Manzoor, Antonios Gouglidis, **Matthew Bradbury**, and Neeraj Suri. Enabling Multi-Layer Threat Analysis in DynamicCloud Environments. *IEEE Transactions on Cloud Computing*, January 2024.  
+* Salman Manzoor, Antonios Gouglidis, **Matthew Bradbury**, and Neeraj Suri. Enabling Multi-Layer Threat Analysis in Dynamic Cloud Environments. *IEEE Transactions on Cloud Computing*, February 2024.  
 [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Manzoor_2024_EnablingMultiLayer.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/TCC2024.pdf)]
 
 
