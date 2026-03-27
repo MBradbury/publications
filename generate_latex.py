@@ -72,13 +72,19 @@ tex_output += process_bib("self.bib", sections={
     "Technical Reports": {"techreport"},
 })
 
-tex_output += process_bib("preparation.bib", sections={
-    "Papers in Preparation": {"unpublished"},
-})
+try:
+    tex_output += process_bib("preparation.bib", sections={
+        "Papers in Preparation": {"unpublished"},
+    })
+except FileNotFoundError:
+    print("Skipping: preparation.bib")
 
-tex_output += process_bib("event.bib", sections={
-    "Event Reports": {"article", "techreport"},
-})
+try:
+    tex_output += process_bib("event.bib", sections={
+        "Event Reports": {"article", "techreport"},
+    })
+except FileNotFoundError:
+    print("Skipping: event.bib")
 
 with open("out.tex", "w", encoding="utf-8") as out:
     print(tex_output, file=out)
