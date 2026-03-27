@@ -4,3 +4,4 @@
 /out.tex
 /pages
 *.bib.sav.tmp
+.venv
