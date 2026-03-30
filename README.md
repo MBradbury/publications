@@ -1,11 +1,17 @@
-
 ## Publications
+
+#### 2026
+
+* Chathuranga Sampath Kalutharage and **Matthew Bradbury**. Classes of Cyber Physical System Observation Privacy Techniques. In *12th ACM Cyber-Physical System Security Workshop*. Bangalore, India, 2 June 2026.  
+  [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Kalutharage_2026_ClassesCPSObservation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/CPSS2026.pdf)]
+* Paul Smith, Matthew Zerphy, Gustavo Berman, **Matthew Bradbury**, Rodney Busquim E. Sliva, Khalil El-Khatib Ricardo Marques, Gary Meyers, and Hayden Nolan. Nuclear Cybersecurity Education: A Collaborative, Multi-Format Approach Using the Asherah Nuclear Power Plant Simulator 2.0. In *International Conference on Computer Security in the Nuclear World: Securing the Future*. Vienna, Austria, 11–15 May 2026. IAEA.  
+  [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Smith_2026_NuclearCyberSecurityEducation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/CyberCon2026.pdf)]
 
 #### 2025
 
-* Sara Cannizzaro, **Matthew Bradbury**, Sam Maesschalck, Gregory Epiphaniou, and Carsten Maple. NewSpace, New Threats – Exploring the Influence of New Entrants to the Space Industry on Cybersecurity. In *IEEE Aerospace Conference*. Big Sky, Montana, USA, 1–8 March 2025. IEEE.  
+* Sara Cannizzaro, **Matthew Bradbury**, Sam Maesschalck, Gregory Epiphaniou, and Carsten Maple. NewSpace, New Threats – Exploring the Influence of New Entrants to the Space Industry on Cybersecurity. In *IEEE Aerospace Conference*. Big Sky, Montana, USA, 1–8 March 2025. IEEE. [doi:10.1109/AERO63441.2025.11068639](https://doi.org/10.1109/AERO63441.2025.11068639).  
   [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Cannizzaro_2025_NewSpaceNewThreats.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/AeroConf2025.pdf)]
-* Awais Rashid, Sana Belguith, **Matthew Bradbury**, Sadie Creese, Ivan Flechais, and Neeraj Suri. \sc Security-by-design Securing a compromised system. In *Rossfest Symposium*. Cambridge, UK, 25 March 2025.  
+* Awais Rashid, Sana Belguith, **Matthew Bradbury**, Sadie Creese, Ivan Flechais, and Neeraj Suri. \sc Security-by-design Securing a compromised system. In Frank Stajano, editor, *Rossfest Festschrift*, pages 127–134. Cambridge, UK, 25 March 2025. URL: <https://www.cl.cam.ac.uk/events/rossfest/2025-stajano--rossfest-festschrift.pdf>.  
   [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Rashid_2025_SecuringCompromisedSystem.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/Rossfest2025.pdf)]
 
 #### 2024
@@ -120,10 +126,12 @@
 
 * Arshad Jhumka, **Matthew Bradbury**, and Matthew Leeke. Towards Understanding Source Location Privacy in Wireless Sensor Networks through Fake Sources. In *11th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)*, 760–768. 25–27 June 2012. [doi:10.1109/TrustCom.2012.281](https://doi.org/10.1109/TrustCom.2012.281).  
   [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Jhumka_2012_TowardsUnderstandingSource.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/TrustCom2012.pdf)] [[presentation](https://github.com/MBradbury/publications/raw/master/presentations/TrustCom2012.pdf)]
+
 ## PhD Thesis
 
 * **Matthew Bradbury**. *Near Optimal Routing Protocols for Source Location Privacy in Wireless Sensor Networks: Modelling, Design and Evaluation*. PhD thesis, University of Warwick, Coventry, UK, May 2018. URL: <http://wrap.warwick.ac.uk/115772>.  
   [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2018_NearOptimalRouting.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/Thesis.pdf)] [[dataset](https://doi.org/10.5281/zenodo.1209158)]
+
 ## Technical Reports
 
 * Elijah Adegoke, **Matthew Bradbury**, Erik Kampert, Matthew Higgins, Tim Watson, Paul Jennings, Colin Ford, Guy Buesnel, and Steve Hickling. PNT Cyber Resilience: a Lab2Live Observer Based Approach, Report 1: GNSS Resilience and Identified Vulnerabilities. Technical Report 1, University of Warwick, Coventry, UK, April 2020. Version 1.0. URL: <http://wrap.warwick.ac.uk/139519/>.  
@@ -132,5 +140,3 @@
   [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2020_PntCyberResilience.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/PNTReport2.pdf)]
 * Carsten Maple, **Matthew Bradbury**, Miles Elsden, Haitham Cruickshank, Hu Yuan, Chen Gu, and Phillip Asuquo. IoT Transport and Mobility Demonstrator: Cyber Security Testing on National Infrastructure. Technical Report, University of Warwick, Coventry, UK, May 2019.  
   [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Maple_2019_IoTTransportMobility.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/IoT_TRaM_Report.pdf)]
-
-

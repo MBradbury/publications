@@ -16,7 +16,7 @@ with open('self.bib') as bibtex_file:
     db = parse_file(bibtex_file, 'bibtex')
 
 sections = {
-    "Publications": {"inproceedings", "article"},
+    "Publications": {"inproceedings", "article", "incollection"},
     "PhD Thesis": {"phdthesis"},
     "Technical Reports": {"techreport"},
 }
