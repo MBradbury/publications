@@ -140,3 +140,8 @@
   [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Bradbury_2020_PntCyberResilience.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/PNTReport2.pdf)]
 * Carsten Maple, **Matthew Bradbury**, Miles Elsden, Haitham Cruickshank, Hu Yuan, Chen Gu, and Phillip Asuquo. IoT Transport and Mobility Demonstrator: Cyber Security Testing on National Infrastructure. Technical Report, University of Warwick, Coventry, UK, May 2019.  
   [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Maple_2019_IoTTransportMobility.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/IoT_TRaM_Report.pdf)]
+
+## Event Reports
+
+* Marie Farrell, **Matthew Bradbury**, Michael Fisher, and Carsten Maple. Space Security Scoping Workshop. Event Report, University of Liverpool and University of Warwick, 1st February 2019.  
+  [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Farrell_2019_SpaceSecurityScopingWorkshop.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/ER-FAIRSpace2019.pdf)]
