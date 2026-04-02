@@ -14,15 +14,19 @@ from pybtex.database import BibliographyData
 style = find_plugin('pybtex.style.formatting', 'plain')()
 
 with open('self.bib') as bibtex_file:
-    db = parse_file(bibtex_file, 'bibtex')
+    db_self = parse_file(bibtex_file, 'bibtex')
+    data_self = list(sorted(db_self.entries.items(), key=lambda e: e[1].fields["year"], reverse=True))
+
+with open('event.bib') as bibtex_file:
+    db_event = parse_file(bibtex_file, 'bibtex')
+    data_event = list(sorted(db_event.entries.items(), key=lambda e: e[1].fields["year"], reverse=True))
 
 sections = {
-    "Publications": {"inproceedings", "article"},
-    "PhD Thesis": {"phdthesis"},
-    "Technical Reports": {"techreport"},
+    "Publications": (data_self, {"inproceedings", "article"}),
+    "PhD Thesis": (data_self, {"phdthesis"}),
+    "Technical Reports": (data_self, {"techreport"}),
+    "Event Reports": (data_event, {"techreport"}),
 }
-
-data = list(sorted(db.entries.items(), key=lambda e: e[1].fields["year"], reverse=True))
 
 pages = pathlib.Path("pages")
 pages.mkdir(parents=True, exist_ok=True)
@@ -31,7 +35,7 @@ bibtex_dir = "bibtex"
 highlight_author = "Matthew Bradbury"
 root_dir = "https://raw.githubusercontent.com/MBradbury/publications/master"
 
-for section_name, section_types in sections.items():
+for _section_name, (data, section_types) in sections.items():
 
     for label, entry in data:
         # Skip entries that we should not print
@@ -111,7 +115,7 @@ for section_name, section_types in sections.items():
 
             print("""---
 
-## Summary
+<!-- readmore -->
 
 ## Importance
 

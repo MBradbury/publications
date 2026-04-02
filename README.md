@@ -143,5 +143,5 @@
 
 ## Event Reports
 
-* Marie Farrell, **Matthew Bradbury**, Michael Fisher, and Carsten Maple. Space Security Scoping Workshop. Event Report, University of Liverpool and University of Warwick, 1st February 2019.  
+* Marie Farrell, **Matthew Bradbury**, Michael Fisher, and Carsten Maple. Space Security Scoping Workshop. Event Report, University of Liverpool and University of Warwick, 1 February 2019.  
   [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Farrell_2019_SpaceSecurityScopingWorkshop.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/ER-FAIRSpace2019.pdf)]
