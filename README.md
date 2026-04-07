@@ -2,7 +2,7 @@
 
 #### 2026
 
-* Chathuranga Sampath Kalutharage and **Matthew Bradbury**. Classes of Cyber Physical System Observation Privacy Techniques. In *12th ACM Cyber-Physical System Security Workshop*. Bangalore, India, 2 June 2026.  
+* Chathuranga Sampath Kalutharage and **Matthew Bradbury**. Classes of Cyber Physical System Observation Privacy Techniques. In *12th ACM Cyber-Physical System Security Workshop*. Bangalore, India, 2 June 2026. [doi:10.1145/3775042.3807879](https://doi.org/10.1145/3775042.3807879).  
   [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Kalutharage_2026_ClassesCPSObservation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/CPSS2026.pdf)]
 * Paul Smith, Matthew Zerphy, Gustavo Berman, **Matthew Bradbury**, Rodney Busquim e Silva, Khalil El-Khatib Ricardo Marques, Gary Meyers, and Hayden Nolan. Nuclear Cybersecurity Education: A Collaborative, Multi-Format Approach Using the Asherah Nuclear Power Plant Simulator 2.0. In *International Conference on Computer Security in the Nuclear World: Securing the Future*. Vienna, Austria, 11–15 May 2026. IAEA.  
   [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Smith_2026_NuclearCyberSecurityEducation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/CyberCon2026.pdf)]
