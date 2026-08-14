@@ -3,6 +3,7 @@
 
 import re
 import pathlib
+import time
 
 from markdownify import markdownify as md
 
@@ -15,8 +16,31 @@ bibtex_dir = "bibtex"
 highlight_author = "Matthew Bradbury"
 root_dir = "https://github.com/MBradbury/publications/raw/master"
 
+def isoymd(entry) -> str:
+    month = entry.fields.get('month', 'January')
+
+    # Need to strip dates out of month
+    # Three options "x Month", "x--y Month" or "X Month1 -- Y Month2"
+    if '--' not in month and ' ' in month:
+        month_split = month.split(' ')
+        day = month_split[0]
+        month = month_split[1]
+    elif ' -- ' in month:
+        month_split = month.split(' ')
+        day = month_split[0]
+        month = month_split[1]
+    elif '--' in month:
+        day = month.split('--', 1)[0]
+        month = month.split(' ', 1)[1]
+    else:
+        day = "1"
+
+    day = str(int(day)).zfill(2)
+    month = str(time.strptime(month, '%B').tm_mon).zfill(2)
+    return f"{entry.fields['year']}-{month}-{day}"
+
 def generate_html(db, sections: dict[str, set[str]]):
-    data = list(sorted(db.entries.items(), key=lambda e: e[1].fields["year"], reverse=True))
+    data = list(sorted(db.entries.items(), key=lambda e: isoymd(e[1]), reverse=True))
 
     publication_h_number = 4
 
