@@ -6,6 +6,8 @@
   [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Kalutharage_2026_ClassesCPSObservation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/CPSS2026.pdf)]
 * Paul Smith, Matthew Zerphy, Gustavo Berman, **Matthew Bradbury**, Rodney Busquim e Silva, Khalil El-Khatib Ricardo Marques, Gary Meyers, and Hayden Nolan. Nuclear Cybersecurity Education: A Collaborative, Multi-Format Approach Using the Asherah Nuclear Power Plant Simulator 2.0. In *International Conference on Computer Security in the Nuclear World: Securing the Future*. Vienna, Austria, 11–15 May 2026. IAEA.  
   [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Smith_2026_NuclearCyberSecurityEducation.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/CyberCon2026.pdf)]
+* Chathuranga Sampath Kalutharage, Brendon Fowley, Cason Brady, and **Matthew Bradbury**. Trading Appliance Liveness for Home Electricity Consumption Privacy. In *Computer Security. ESORICS 2026 International Workshops*. Rome, Italy, 14–18 September 2026. Springer Nature Switzerland.  
+  [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Kalutharage_2026_TradingApplianceLiveness.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/MIST2026.pdf)]
 
 #### 2025
 
