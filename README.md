@@ -2,6 +2,8 @@
 
 #### 2026
 
+* Padideh Choobdar, Nigel Davies, Emma Wilson, Steve Hodges, Edward Jude, **Matthew Bradbury**, and Neil D. Reeves. Cybersecurity of Smart Sensing Insole Systems: A Threat Modelling Approach to Understanding Security Vulnerabilities. *Sensors*, 5 October 2026. [doi:10.3390/s26196298](https://doi.org/10.3390/s26196298).  
+  [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Choobdar_2026_CybersecuritySmartSensing.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/Sensors2026.pdf)]
 * Chathuranga Sampath Kalutharage, Brendon Fowley, Cason Brady, and **Matthew Bradbury**. Trading Appliance Liveness for Home Electricity Consumption Privacy. In *Computer Security. ESORICS 2026 International Workshops*. Rome, Italy, 14–18 September 2026. Springer Nature Switzerland.  
   [[bibtex](https://github.com/MBradbury/publications/raw/master/bibtex/Kalutharage_2026_TradingApplianceLiveness.bib)] [[file](https://github.com/MBradbury/publications/raw/master/papers/MIST2026.pdf)]
 * Chathuranga Sampath Kalutharage and **Matthew Bradbury**. Classes of Cyber Physical System Observation Privacy Techniques. In *12th ACM Cyber-Physical System Security Workshop*. Bangalore, India, 2 June 2026. [doi:10.1145/3775042.3807879](https://doi.org/10.1145/3775042.3807879).  
